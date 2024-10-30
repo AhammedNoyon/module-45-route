@@ -1,0 +1,16 @@
+.user-container {
+  border: 2px solid tomato;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 5px;
+}
+.users-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.details-btn {
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+}
