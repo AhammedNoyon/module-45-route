@@ -1,5 +1,6 @@
+/* eslint-disable react/prop-types */
 import "./user.css";
-import { Link, useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 const User = ({ user }) => {
   // console.log(user);
   const navigate = useNavigate();
